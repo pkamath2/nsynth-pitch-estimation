@@ -1,4 +1,4 @@
-# Pitch Estimation using RNNs for Acoustic Guitar
+# Pitch Estimation using RNNs and raw audio for Acoustic Guitar
 
 This project aims to study the problem of estimating pitch using recurrent neural networks and the NSynth dataset. 
 
