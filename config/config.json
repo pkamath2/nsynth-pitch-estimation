@@ -1,0 +1,28 @@
+{
+    "base_data_dir": "/home/purnima/appdir/Github/DATA/NSynth",
+    "train": {
+        "audio_dir": "nsynth-train/audio", 
+        "label_dir": "nsynth-train/examples-subset-full-acoustic-3000.json"
+    },
+    "validate": {
+        "audio_dir": "nsynth-valid/audio",
+        "label_dir": "nsynth-valid/examples-subset-full-acoustic-3000.json"
+    },
+    "test": {
+        "audio_dir": "nsynth-test/audio",
+        "label_dir": "nsynth-test/examples-subset-full-acoustic-3000.json"
+    },
+    "instrument": "guitar",
+    "sample_rate": 16000,
+    "total_epoch": 100,
+    "batch_size": 32,
+    "lower_pitch_limit": 21,
+    "upper_pitch_limit": 81,
+    "num_features": 7,
+    "sample_length": 2048,
+    "hidden_layer_size": 128,
+    "num_layers": 2,
+    "dropout": 0.1,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001
+}
