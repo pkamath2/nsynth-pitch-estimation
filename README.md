@@ -5,11 +5,11 @@ This project aims to study the problem of estimating pitch using recurrent neura
 ## Dependencies
 The following is the list of libraries/infrastucture used while building and testing this architecture.
 
-PyTorch 1.7.1
-Librosa 0.8.0
-Matplotlib 3.3.3
-Numpy 1.19.4
-Pandas 1.1.5
+PyTorch 1.7.1  
+Librosa 0.8.0  
+Matplotlib 3.3.3  
+Numpy 1.19.4  
+Pandas 1.1.5   
 
 ## Runtime environment
 The following is the runtime environment used while building and testing this architecture.   
