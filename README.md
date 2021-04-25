@@ -29,3 +29,9 @@ During and on completion of training, two `.pt` files will be created -
 2. Model saved on completion of all epochs. Both model files and loss/accuracy plots will be saved in the /models folder.
 
 <img src="models/rnn-pitch-estimation-21-81-0.001-32.png" alt="drawing" style="height:450px;padding-left:100px;"/>
+
+## Steps to validate  
+1. Comparison against pYIN and CREPE - please see jupyter notebook under notebooks/pyin-crepe-comparison-validation.ipynb
+2. To run validation on model run the script `python main.py --operation=validate` 
+
+Companion webpage with windowed estimated here - https://pkamath2.github.io/assignment/ 
