@@ -20,7 +20,7 @@ GPU: GeForce RTX 2080 Ti 11GB; Driver version: 460.27.04; CUDA version 11.2
 1. Download NSynth JSON dataset from https://magenta.tensorflow.org/datasets/nsynth#files 
 2. Copy the `data/nsynth<train/test/valid>/examples-subset-full-acoustic-3000.json` from this repo to the downloaded data folder (parallel to the datasets existing train/test/valid examples.json file)
 3. Update the config/config.json in this repo with your local data directory.
-4. Run the script `python main.py --operation=train`  
+4. Run the script `python -W ignore main.py --operation=train`  
 
 Training for 100 epoch takes around 2.5hrs on the GPU specified in the runtime environment. 
 
@@ -32,6 +32,6 @@ During and on completion of training, two `.pt` files will be created -
 
 ## Steps to validate  
 1. Comparison against pYIN and CREPE - please see jupyter notebook under notebooks/pyin-crepe-comparison-validation.ipynb
-2. To run validation on model run the script `python main.py --operation=validate` 
+2. To run validation on model run the script `python -W ignore main.py --operation=validate` 
 
 Companion webpage with windowed estimated here - https://pkamath2.github.io/assignment/ 
